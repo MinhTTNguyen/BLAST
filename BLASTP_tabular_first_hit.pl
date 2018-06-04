@@ -20,8 +20,8 @@ my $folder_in=<STDIN>;
 chomp($folder_in);
 =cut
 
-my $path="/home/mnguyen/Research/Aspergillus_exoproteomes/Manuscript2/BLASTP_characterized/";
-my $folder_in="BLASTP_SW_1E_10";
+my $path="/home/mnguyen/Research/For_Marcos/Dicsqu464_1";
+my $folder_in="BLASTP_SwissProt";
 my $folder_out=$folder_in."_best_hit";
 mkdir "$path/$folder_out";
 chdir "$path/$folder_out";
